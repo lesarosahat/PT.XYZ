@@ -1,0 +1,42 @@
+Screen Pendaftaran:
+user membuka aplikasi dan diarahkan ke screen Pendaftaran.
+user memasukkan data diri seperti nama, email, nomor telepon, foto,no KTP dan password .
+user mengklik tombol "Daftar".
+Aplikasi melakukan validasi data yang dimasukkan.
+Aplikasi melakukan validasi data KTP kedukcapil.
+Aplikasi mengirimkan data Pendaftaran ke backend service API melalui endpoint registerasi().
+backend service API memvalidasi data dan menyimpan informasi user baru ke dalam database.
+Aplikasi menampilkan pesan sukses Pendaftaran.
+user dapat melanjutkan ke screen Login.
+
+Screen Login:
+user membuka aplikasi dan diarahkan ke screen Login.
+user memasukkan kredensial login seperti email dan kata sandi.
+user mengklik tombol "Login".
+Aplikasi melakukan validasi kredensial.
+Aplikasi mengirimkan kredensial ke backend service API melalui endpoint login().
+backend service API memvalidasi kredensial dan mengembalikan data user terkait.
+Aplikasi menyimpan data user di sesi atau penyimpanan lokal.
+Aplikasi menampilkan screen home dengan informasi peminjaman, sisa hutang, dan tagihan perbulan.
+
+Screen Home:
+user dapat melihat informasi peminjaman dan dapat memilih opsi untuk mengajukan peminjaman baru.
+user dapat melihat notification.
+user dapat melakukan pencarian di home.
+
+Screen Pengajuan Peminjaman:
+user memilih opsi untuk mengajukan peminjaman baru termasuk sisa hutang dan tagihan perbulan (jika ada).
+user dapat memilih opsi untuk melihat riwayat peminjaman.
+user memasukkan jumlah pinjaman dan tenor yang diinginkan 3, 6, atau 12 bulan maksimal.
+user mengklik tombol "Ajukan Peminjaman".
+Aplikasi melakukan validasi data peminjaman.
+Aplikasi mengirimkan data peminjaman ke backend service API melalui endpoint reqPinjaman()
+backend service API memproses permintaan peminjaman dan menyimpan data peminjaman baru ke dalam database.
+Aplikasi menampilkan pesan sukses pengajuan peminjaman.
+user dapat kembali ke screen utama.
+
+Screen Account:
+user dapat mengatur profile.
+user dapat mengatur notification settings.
+user dapat melihat privacy and policy.
+user dapat mengatur security (bisa menggunakan biometric).

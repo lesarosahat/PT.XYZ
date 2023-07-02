@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2023-07-02T16:18:41.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aMQDD1oHCY2eLWdM-H1u" version="21.5.2" type="device">
+  <diagram name="Page-1" id="3v0SYCVNvBl88Uh9KWf6">
+    <mxGraphModel dx="880" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NebSsFkUpjV1kpODtVpC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NebSsFkUpjV1kpODtVpC-1" target="NebSsFkUpjV1kpODtVpC-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NebSsFkUpjV1kpODtVpC-1" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="270" y="20" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NebSsFkUpjV1kpODtVpC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NebSsFkUpjV1kpODtVpC-3" target="NebSsFkUpjV1kpODtVpC-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NebSsFkUpjV1kpODtVpC-3" value="User Klick&lt;br&gt;Mengajukan Pinjaman" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="240" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NebSsFkUpjV1kpODtVpC-8" target="TzafzmHJcgvZPZJV2PNn-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-4" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TzafzmHJcgvZPZJV2PNn-2">
+          <mxGeometry x="0.1259" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NebSsFkUpjV1kpODtVpC-8" target="TzafzmHJcgvZPZJV2PNn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-10" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TzafzmHJcgvZPZJV2PNn-9">
+          <mxGeometry x="-0.2" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NebSsFkUpjV1kpODtVpC-8" value="Apakah Ada pinjaman yang belum lunas ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="250" y="320" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NebSsFkUpjV1kpODtVpC-18" target="TzafzmHJcgvZPZJV2PNn-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NebSsFkUpjV1kpODtVpC-18" value="proses peminjaman" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="270" y="690" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NebSsFkUpjV1kpODtVpC-22" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="270" y="1010" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-1" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="706" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TzafzmHJcgvZPZJV2PNn-3" target="TzafzmHJcgvZPZJV2PNn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-3" value="Gagal melakukan pinjaman" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="460" y="340" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TzafzmHJcgvZPZJV2PNn-6" target="TzafzmHJcgvZPZJV2PNn-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-8" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TzafzmHJcgvZPZJV2PNn-7">
+          <mxGeometry x="-0.5581" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TzafzmHJcgvZPZJV2PNn-6" target="NebSsFkUpjV1kpODtVpC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-12" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TzafzmHJcgvZPZJV2PNn-11">
+          <mxGeometry x="-0.025" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-6" value="Apakah melebihi limit ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="510" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TzafzmHJcgvZPZJV2PNn-13" target="TzafzmHJcgvZPZJV2PNn-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-13" value="Disbursement" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="840" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TzafzmHJcgvZPZJV2PNn-15" target="NebSsFkUpjV1kpODtVpC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-15" value="Kirim notification ke user" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="920" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TzafzmHJcgvZPZJV2PNn-18" target="TzafzmHJcgvZPZJV2PNn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TzafzmHJcgvZPZJV2PNn-18" value="insert data installment" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="770" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
